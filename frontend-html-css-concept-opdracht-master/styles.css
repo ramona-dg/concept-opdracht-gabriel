@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');/* Table of Contents*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap'); /* Table of Contents*/
 
 /*-------------------------------1. Global styles ---------------------------*/
 * {
@@ -75,7 +75,7 @@ header {
 }
 
 .content-container > h1, .content-container > p {
-    padding: 0px 0px 22px 0px;
+    padding-bottom: 22px;
 }
 
 .header-button {
@@ -117,29 +117,31 @@ header {
     justify-content: center;
 }
 
-.section-one-items{
+.section-one-items {
     color: #5722CD;
     text-decoration-thickness: 4px;
     text-align: center;
-    padding:100px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     position: relative;
     font-family: Merriweather, "Roboto", sans-serif;
-    max-width: 700px ;
+    max-width: 700px;
 
 }
-.section-one-item-one{
-    font-size:12px ;
+
+.section-one-item-one {
+    font-size: 12px;
     align-content: space-between;
 }
-.section-one-item-one h2{
+
+.section-one-item-one h2 {
     padding-bottom: 15px;
 }
 
-.section-one-item-two{
+.section-one-item-two {
     justify-content: flex-end;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     align-content: flex-start;
     font-size: 10px;
     text-align: center;
@@ -147,68 +149,83 @@ header {
     color: black;
     font-weight: 550;
 }
-.section-one-item-two a{
+
+.section-one-item-two a {
     color: #5722CD;
     text-decoration: none;
     font-family: "Roboto", serif;
     font-weight: 600;
- }
-/*---------------------- 4.4 section articles ---------------------------*/
+}
 
+/*---------------------- 4.4 section articles ---------------------------*/
 
 
 .work-section {
     background-color: #F3F6F9;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0vw;
+    /*min-width: 600px;*/
+    /*margin: 0vw 10vw;*/
 }
 
-.work-item{
+.work-item {
     background-color: white;
     display: flex;
     flex-direction: row;
     position: relative;
-    justify-content: space-between;
-    padding: 60px;
-}
-.work-item img{
-    max-width: 50%;
+    justify-content: space-evenly;
+    padding: 4vw 0vw;
+    /*border: black solid 2px;*/
 
 }
-.text-item-article{
+
+.work-item img {
+    width: 50vw;
+    /*max-height: 60vh;*/
+
+}
+
+.text-item-article {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: space-evenly;
-    padding-left: 7px;
-    padding-right: 110px;
+    padding-left: 2vw;
+    padding-right: 6vw;
+    /*border: black solid 2px;*/
+    width: 33vw;
+    font-size: 1.32vw;
 
 
 }
+
 /*------------------------------tijdelijk squiggle en tekstopmaak*/
-.tijdelijk{
+.tijdelijk {
     color: coral;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-h4{
+
+h4 {
     color: black;
     font-family: "Merriweather", serif;
     font-weight: 600;
-    font-size: larger;
-    padding-bottom: 10px;
+    font-size: 2vw;
+    padding-bottom: 1vw;
 
 }
-.work-item-text-design{
+
+.work-item-text-design {
     font-family: Roboto, sans-serif;
     font-weight: bolder;
     padding-bottom: 15px;
     padding-top: 15px;
-}
 
+}
 
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
